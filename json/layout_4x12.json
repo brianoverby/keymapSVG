@@ -1,0 +1,42 @@
+{
+    "layout": {
+        "split": false,
+        "rows": 4,
+        "columns": 12
+    },
+    "layers": {
+        "qwerty": {
+            "keys": [
+                ["tab", "q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "bksp"],
+                ["esc", "a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'"],
+                ["shift", "z", "x", "c", "v", "b","n", "m", ",", ".", "up", "enter"],
+                ["fn", "ctrl", "alt", "gui", "lower", "", "", "raise", "/", "left", "down", "right"]
+            ]
+        },
+        "lower": {
+            "keys": [
+                ["~","!", "@", "#", "$", "%","^", "&", "*", "(", ")", "bksp"],
+                ["esc", "f1", "f2", "f3", "f4", "f5", "f6", "_", "+", "{", "}", "´"],
+                ["shift", "f7", "f8", "f9", "f10", "f11", "f12", "-", "=", "[", "]", "enter"],
+                ["fn", "ctrl", "alt", "gui", "hold::lower", "", "", "raise", "\\", "|", null, null]
+            ]
+        },
+        "raise": {
+            "keys": [
+                ["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "bksp"],
+                ["esc", "f1", "f2", "f3", "f4", "f5", "f6", null, null, null, null, "¨"],
+                ["shift", "f7", "f8", "f9", "f10", "f11", "f12", null, ",", ".", "vol+", "enter"],
+                ["fn", "ctrl", "alt", "gui", "lower", "", "", "hold::raise", null, "next", "vol-", "play"]
+            ]
+        },
+        "fn": {
+            "keys": [
+                [null, null, null, null, null, null, null, null, "ins", null, "prtsc","å"],
+                ["del", null, null, null, null, null, null, null, null, null, "æ", "ø"],
+                ["shift", null, null, null, null, null, null, null, null, null, "pgup", "del"],
+                ["hold::fn", "ctrl", "alt", "gui", "lower", "","","raise", null, "home", "pgdn", "end"]
+            ]
+        }
+    }
+}
+
