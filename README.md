@@ -12,6 +12,8 @@ The script supports ortho keymaps and split keymaps (with and without thumb keys
 
 Install PowerShell. If you are running Windows you probably already got a recent version of PowerShell. You can find [install guide for PowerShell on MacOS and linux](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell).
 
+Download the script [Create-KeymapSVG.ps1](Create-KeymapSVG.ps1) to your computer. On windows you might need to set execution policy to run the script (use `Set-ExecutionPolicy`).    
+
 Create a json file for you keymap - see the [sample layouts](json/layout_4x12.json).
 
 ## Run the script
