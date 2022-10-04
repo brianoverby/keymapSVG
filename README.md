@@ -7,6 +7,12 @@ I use PowerShell a lot more than python, so I converted it to PowerShell and sim
 
 ## Supported layouts
 The script supports ortho keymaps and split keymaps (with and without thumb keys). Keys kan be more tha 1u wide on any row.
+### Layout examples
+```
+x x x x x x x x    x x x x   x x x x    x x x x   x x x x    x x x x   x x x x
+x x x x x x x x    x x x x   x x x x    x x x x   x x x x    x x x x   x x x x
+x x x xxx x x x        x x   x x        x x x x   x x x x      x x x   xxx
+```
 
 ## Get started
 
@@ -45,7 +51,7 @@ The basic json file format is like this:
                 ["q", "w", "f", "p", "g","j", "l", "u", "y", "'"],
                 ["a", "r", "s", "t", "d","h", "n", "e", "i", "o"],
                 ["z", "x", "c", "v", "b","k", "m", ",", ".", ";"],
-                ["shift", "ctrl", "alt", "gui", "","", "left", "down", "up", "right"]
+                ["shift", "ctrl", "alt", "gui", "space","space", "left", "down", "up", "right"]
             ]
         },
         "sym": {
@@ -53,7 +59,7 @@ The basic json file format is like this:
                 ["!", "@", "#", "$", "%","(", ")", "^", null, "~"],
                 ["&", "*", "_", "'", "\"","{", "}", "¨", "´", "`"],
                 ["|", "+", "-", "=", "\\","[", "]", "æ", "ø", "å"],
-                [null, null, null, "gui", "","", "left", "down", "up", "right"]
+                [null, null, null, "gui", "hold::space","hold::space", "left", "down", "up", "right"]
             ]
         }
     }
