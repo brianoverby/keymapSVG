@@ -30,7 +30,7 @@ Create-KeymapSVG.ps1 -KeymapJsonFile <pathToJsonFile> -OutputSVGFile <pathToSVGO
 
 The param `-printLayerName` prints the name of the keyboard layer as heading (see [sample outputs](svg/keymap_3x5_2.svg))
 
-## Sample output
+### Sample output
 
 This svg file is created from the file [json/layout_3x5-2.json](json/layout_3x5-2.json)
 ![svg/keymap_3x5_2.svg](svg/keymap_3x5_2.svg)
