@@ -40,7 +40,7 @@ svg {
     text-rendering: optimizeLegibility;
 }
 rect {
-    fill: #F9F9F8;
+    fill: #F9F9FC;
 }
 text {
     fill: #403d39;
