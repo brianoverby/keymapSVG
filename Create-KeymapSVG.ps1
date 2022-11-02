@@ -41,8 +41,6 @@ svg {
 }
 rect {
     fill: #F9F9F8;
-    stroke: #403d39;
-    stroke-opacity: 0.5;
 }
 text {
     fill: #403d39;
@@ -50,7 +48,7 @@ text {
     dominant-baseline: middle;
 }
 .hold {
-    fill: #D3D0CC;
+    fill: #D7ECFE;
 }
 .layer {
     fill: #403d39;
