@@ -40,14 +40,14 @@
         },
         "nav": {
             "left": [
-                ["tab", null, null, null, null],
-                ["shift", "ctrl", "alt", "cmd", null],
-                ["esc", null, null, null, null]
+                ["tab", null, null, "repeat", null],
+                ["shift", "ctrl", "alt", "cmd", "cancel"],
+                ["esc", "cut", "copy", "paste", null]
             ],
             "right": [
-                ["pgup", "home", "up", "end", "bksp"],
-                ["pgdn", "left", "down", "right", "del"],
-                [null, null, null, null, "enter"]
+                ["pgup", "home", "↑", "end", "bksp"],
+                ["pgdn", "←", "↓", "→", "del"],
+                ["insert", "print screen", null, null, "enter"]
             ],
             "thumbs": {
                 "left": [ "hold::nav", "shift"],
@@ -56,14 +56,14 @@
         },
         "num": {
             "left": [
-                [null, "7", "8", "9", ","],
-                [null, "4", "5", "6", "."],
-                [null, "1", "2", "3", "0"]
+                ["tab", "7", "8", "9", null],
+                [",", "4", "5", "6", null],
+                [".", "1", "2", "3", "0"]
             ],
             "right": [
                 ["f1", "f2", "f3", "f4", "f5"],
                 ["f6", "f7", "f8", "f9", "f10"],
-                ["f11", "f12", null, null, null]
+                ["f11", "f12", null, "OS toggle", "enter"]
             ],
             "thumbs": {
                 "left": [ "hold::num", "shift"],

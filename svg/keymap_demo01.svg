@@ -1,4 +1,4 @@
-<svg width="730" height="989" viewBox="0 0 730 989" xmlns="http://www.w3.org/2000/svg">
+﻿<svg width="730" height="1061" viewBox="0 0 730 1061" xmlns="http://www.w3.org/2000/svg">
 <style>
 svg {
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
@@ -7,9 +7,7 @@ svg {
     text-rendering: optimizeLegibility;
 }
 rect {
-    fill: #F9F9F8;
-    stroke: #403d39;
-    stroke-opacity: 0.5;
+    fill: #F9F9FC;
 }
 text {
     fill: #403d39;
@@ -17,7 +15,7 @@ text {
     dominant-baseline: middle;
 }
 .hold {
-    fill: #D3D0CC;
+    fill: #D7ECFE;
 }
 .layer {
     fill: #403d39;
@@ -26,294 +24,294 @@ text {
     font-weight: bold;
     font-size: 18px;
 }
-
-.td {
-    fill: #cad2c5;
-}
 </style>
-<rect x="32" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="52">q</text>
- <rect x="96" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="52">w</text>
- <rect x="160" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="52">f</text>
- <rect x="224" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="52">p</text>
- <rect x="288" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="52">g</text>
- <rect x="32" y="81" width="60" height="50" class="td" rx="5" ry="5" />
- <text x="62" y="98">a</text>
- <text x="62" y="114">shift</text>
- <rect x="96" y="81" width="60" height="50" class="td" rx="5" ry="5" />
- <text x="126" y="98">r</text>
- <text x="126" y="114">ctrl</text>
- <rect x="160" y="81" width="60" height="50" class="td" rx="5" ry="5" />
- <text x="190" y="98">s</text>
- <text x="190" y="114">alt</text>
- <rect x="224" y="81" width="60" height="50" class="td" rx="5" ry="5" />
- <text x="254" y="98">t</text>
- <text x="254" y="114">cmd</text>
- <rect x="288" y="81" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="106">d</text>
- <rect x="32" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="160">z</text>
- <rect x="96" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="160">x</text>
- <rect x="160" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="160">c</text>
- <rect x="224" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="160">v</text>
- <rect x="288" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="160">b</text>
- <rect x="382" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="52">j</text>
- <rect x="446" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="52">l</text>
- <rect x="510" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="52">u</text>
- <rect x="574" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="52">y</text>
- <rect x="638" y="27" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="52">&#39;</text>
- <rect x="382" y="81" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="106">h</text>
- <rect x="446" y="81" width="60" height="50" class="td" rx="5" ry="5" />
- <text x="476" y="98">n</text>
- <text x="476" y="114">cmd</text>
- <rect x="510" y="81" width="60" height="50" class="td" rx="5" ry="5" />
- <text x="540" y="98">e</text>
- <text x="540" y="114">alt</text>
- <rect x="574" y="81" width="60" height="50" class="td" rx="5" ry="5" />
- <text x="604" y="98">i</text>
- <text x="604" y="114">ctrl</text>
- <rect x="638" y="81" width="60" height="50" class="td" rx="5" ry="5" />
- <text x="668" y="98">o</text>
- <text x="668" y="114">shift</text>
- <rect x="382" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="160">k</text>
- <rect x="446" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="160">m</text>
- <rect x="510" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="160">,</text>
- <rect x="574" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="160">.</text>
- <rect x="638" y="135" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="160">;</text>
- <rect x="160" y="189" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="214">nav</text>
- <rect x="224" y="189" width="124" height="50" rx="5" ry="5" />
- <text x="286" y="214">shift</text>
- <rect x="382" y="189" width="124" height="50" rx="5" ry="5" />
- <text x="444" y="214">space</text>
- <rect x="510" y="189" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="214">sym</text>
+<text x="32" y="25" class="layer">qwerty</text>
+ <rect x="32" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="62" y="70">q</text>
+ <rect x="96" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="126" y="70">w</text>
+ <rect x="160" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="70">f</text>
+ <rect x="224" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="254" y="70">p</text>
+ <rect x="288" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="70">g</text>
+ <rect x="32" y="99" width="60" height="50" class="td" rx="5" ry="5" />
+ <text x="62" y="116">a</text>
+ <text x="62" y="132">shift</text>
+ <rect x="96" y="99" width="60" height="50" class="td" rx="5" ry="5" />
+ <text x="126" y="116">r</text>
+ <text x="126" y="132">ctrl</text>
+ <rect x="160" y="99" width="60" height="50" class="td" rx="5" ry="5" />
+ <text x="190" y="116">s</text>
+ <text x="190" y="132">alt</text>
+ <rect x="224" y="99" width="60" height="50" class="td" rx="5" ry="5" />
+ <text x="254" y="116">t</text>
+ <text x="254" y="132">cmd</text>
+ <rect x="288" y="99" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="124">d</text>
+ <rect x="32" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="62" y="178">z</text>
+ <rect x="96" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="126" y="178">x</text>
+ <rect x="160" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="178">c</text>
+ <rect x="224" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="254" y="178">v</text>
+ <rect x="288" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="178">b</text>
+ <rect x="382" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="70">j</text>
+ <rect x="446" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="476" y="70">l</text>
+ <rect x="510" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="70">u</text>
+ <rect x="574" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="604" y="70">y</text>
+ <rect x="638" y="45" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="70">&#39;</text>
+ <rect x="382" y="99" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="124">h</text>
+ <rect x="446" y="99" width="60" height="50" class="td" rx="5" ry="5" />
+ <text x="476" y="116">n</text>
+ <text x="476" y="132">cmd</text>
+ <rect x="510" y="99" width="60" height="50" class="td" rx="5" ry="5" />
+ <text x="540" y="116">e</text>
+ <text x="540" y="132">alt</text>
+ <rect x="574" y="99" width="60" height="50" class="td" rx="5" ry="5" />
+ <text x="604" y="116">i</text>
+ <text x="604" y="132">ctrl</text>
+ <rect x="638" y="99" width="60" height="50" class="td" rx="5" ry="5" />
+ <text x="668" y="116">o</text>
+ <text x="668" y="132">shift</text>
+ <rect x="382" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="178">k</text>
+ <rect x="446" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="476" y="178">m</text>
+ <rect x="510" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="178">,</text>
+ <rect x="574" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="604" y="178">.</text>
+ <rect x="638" y="153" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="178">;</text>
+ <rect x="160" y="207" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="232">nav</text>
+ <rect x="224" y="207" width="124" height="50" rx="5" ry="5" />
+ <text x="286" y="232">shift</text>
+ <rect x="382" y="207" width="124" height="50" rx="5" ry="5" />
+ <text x="444" y="232">space</text>
+ <rect x="510" y="207" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="232">sym</text>
  
- <rect x="32" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="293">!</text>
- <rect x="96" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="293">@</text>
- <rect x="160" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="293">#</text>
- <rect x="224" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="293">$</text>
- <rect x="288" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="293">%</text>
- <rect x="32" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="347">&amp;</text>
- <rect x="96" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="347">*</text>
- <rect x="160" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="347">_</text>
- <rect x="224" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="347">&#39;</text>
- <rect x="288" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="347">&quot;</text>
- <rect x="32" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="401">|</text>
- <rect x="96" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="401">+</text>
- <rect x="160" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="401">-</text>
- <rect x="224" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="401">=</text>
- <rect x="288" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="401">\</text>
- <rect x="382" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="293">(</text>
- <rect x="446" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="293">)</text>
- <rect x="510" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="293">^</text>
- <rect x="574" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="293"></text>
- <rect x="638" y="268" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="293">~</text>
- <rect x="382" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="347">{</text>
- <rect x="446" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="347">}</text>
- <rect x="510" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="347">&#168;</text>
- <rect x="574" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="347">&#180;</text>
- <rect x="638" y="322" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="347">`</text>
- <rect x="382" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="401">[</text>
- <rect x="446" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="401">]</text>
- <rect x="510" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="401">&#230;</text>
- <rect x="574" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="401">&#248;</text>
- <rect x="638" y="376" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="401">&#229;</text>
- <rect x="160" y="430" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="455">num</text>
- <rect x="224" y="430" width="124" height="50" rx="5" ry="5" />
- <text x="286" y="455">shift</text>
- <rect x="382" y="430" width="124" height="50" rx="5" ry="5" />
- <text x="444" y="455">space</text>
- <rect x="510" y="430" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="540" y="455">sym</text>
+ <text x="32" y="284" class="layer">sym</text>
+ <rect x="32" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="62" y="329">!</text>
+ <rect x="96" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="126" y="329">@</text>
+ <rect x="160" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="329">#</text>
+ <rect x="224" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="254" y="329">$</text>
+ <rect x="288" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="329">%</text>
+ <rect x="32" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="62" y="383">&amp;</text>
+ <rect x="96" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="126" y="383">*</text>
+ <rect x="160" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="383">_</text>
+ <rect x="224" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="254" y="383">&#39;</text>
+ <rect x="288" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="383">&quot;</text>
+ <rect x="32" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="62" y="437">|</text>
+ <rect x="96" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="126" y="437">+</text>
+ <rect x="160" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="437">-</text>
+ <rect x="224" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="254" y="437">=</text>
+ <rect x="288" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="437">\</text>
+ <rect x="382" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="329">(</text>
+ <rect x="446" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="476" y="329">)</text>
+ <rect x="510" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="329">^</text>
+ <rect x="574" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="604" y="329"></text>
+ <rect x="638" y="304" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="329">~</text>
+ <rect x="382" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="383">{</text>
+ <rect x="446" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="476" y="383">}</text>
+ <rect x="510" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="383">&#168;</text>
+ <rect x="574" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="604" y="383">&#180;</text>
+ <rect x="638" y="358" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="383">`</text>
+ <rect x="382" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="437">[</text>
+ <rect x="446" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="476" y="437">]</text>
+ <rect x="510" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="437">&#230;</text>
+ <rect x="574" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="604" y="437">&#248;</text>
+ <rect x="638" y="412" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="437">&#229;</text>
+ <rect x="160" y="466" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="491">num</text>
+ <rect x="224" y="466" width="124" height="50" rx="5" ry="5" />
+ <text x="286" y="491">shift</text>
+ <rect x="382" y="466" width="124" height="50" rx="5" ry="5" />
+ <text x="444" y="491">space</text>
+ <rect x="510" y="466" width="60" height="50" class="hold" rx="5" ry="5" />
+ <text x="540" y="491">sym</text>
  
- <rect x="32" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="534">tab</text>
- <rect x="96" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="534"></text>
- <rect x="160" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="534"></text>
- <rect x="224" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="534"></text>
- <rect x="288" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="534"></text>
+ <text x="32" y="543" class="layer">nav</text>
  <rect x="32" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="588">shift</text>
+ <text x="62" y="588">tab</text>
  <rect x="96" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="588">ctrl</text>
+ <text x="126" y="588"></text>
  <rect x="160" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="588">alt</text>
+ <text x="190" y="588"></text>
  <rect x="224" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="588">cmd</text>
+ <text x="254" y="588"></text>
  <rect x="288" y="563" width="60" height="50" rx="5" ry="5" />
  <text x="318" y="588"></text>
  <rect x="32" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="642">esc</text>
+ <text x="62" y="642">shift</text>
  <rect x="96" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="642"></text>
+ <text x="126" y="642">ctrl</text>
  <rect x="160" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="642"></text>
+ <text x="190" y="642">alt</text>
  <rect x="224" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="642"></text>
+ <text x="254" y="642">cmd</text>
  <rect x="288" y="617" width="60" height="50" rx="5" ry="5" />
  <text x="318" y="642"></text>
- <rect x="382" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="534">pgup</text>
- <rect x="446" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="534">home</text>
- <rect x="510" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="534">up</text>
- <rect x="574" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="534">end</text>
- <rect x="638" y="509" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="534">bksp</text>
+ <rect x="32" y="671" width="60" height="50" rx="5" ry="5" />
+ <text x="62" y="696">esc</text>
+ <rect x="96" y="671" width="60" height="50" rx="5" ry="5" />
+ <text x="126" y="696"></text>
+ <rect x="160" y="671" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="696"></text>
+ <rect x="224" y="671" width="60" height="50" rx="5" ry="5" />
+ <text x="254" y="696"></text>
+ <rect x="288" y="671" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="696"></text>
  <rect x="382" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="588">pgdn</text>
+ <text x="412" y="588">pgup</text>
  <rect x="446" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="588">left</text>
+ <text x="476" y="588">home</text>
  <rect x="510" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="588">down</text>
+ <text x="540" y="588">up</text>
  <rect x="574" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="588">right</text>
+ <text x="604" y="588">end</text>
  <rect x="638" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="588">del</text>
+ <text x="668" y="588">bksp</text>
  <rect x="382" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="642"></text>
+ <text x="412" y="642">pgdn</text>
  <rect x="446" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="642"></text>
+ <text x="476" y="642">left</text>
  <rect x="510" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="642"></text>
+ <text x="540" y="642">down</text>
  <rect x="574" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="642"></text>
+ <text x="604" y="642">right</text>
  <rect x="638" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="642">enter</text>
- <rect x="160" y="671" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="190" y="696">nav</text>
- <rect x="224" y="671" width="124" height="50" rx="5" ry="5" />
- <text x="286" y="696">shift</text>
- <rect x="382" y="671" width="124" height="50" rx="5" ry="5" />
- <text x="444" y="696">space</text>
+ <text x="668" y="642">del</text>
+ <rect x="382" y="671" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="696"></text>
+ <rect x="446" y="671" width="60" height="50" rx="5" ry="5" />
+ <text x="476" y="696"></text>
  <rect x="510" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="696">num</text>
+ <text x="540" y="696"></text>
+ <rect x="574" y="671" width="60" height="50" rx="5" ry="5" />
+ <text x="604" y="696"></text>
+ <rect x="638" y="671" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="696">enter</text>
+ <rect x="160" y="725" width="60" height="50" class="hold" rx="5" ry="5" />
+ <text x="190" y="750">nav</text>
+ <rect x="224" y="725" width="124" height="50" rx="5" ry="5" />
+ <text x="286" y="750">shift</text>
+ <rect x="382" y="725" width="124" height="50" rx="5" ry="5" />
+ <text x="444" y="750">space</text>
+ <rect x="510" y="725" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="750">num</text>
  
- <rect x="32" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="775"></text>
- <rect x="96" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="775">7</text>
- <rect x="160" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="775">8</text>
- <rect x="224" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="775">9</text>
- <rect x="288" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="775">,</text>
- <rect x="32" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="829"></text>
- <rect x="96" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="829">4</text>
- <rect x="160" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="829">5</text>
- <rect x="224" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="829">6</text>
- <rect x="288" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="829">.</text>
- <rect x="32" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="883"></text>
- <rect x="96" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="883">1</text>
- <rect x="160" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="883">2</text>
- <rect x="224" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="883">3</text>
- <rect x="288" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="883">0</text>
- <rect x="382" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="775">f1</text>
- <rect x="446" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="775">f2</text>
- <rect x="510" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="775">f3</text>
- <rect x="574" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="775">f4</text>
- <rect x="638" y="750" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="775">f5</text>
- <rect x="382" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="829">f6</text>
- <rect x="446" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="829">f7</text>
- <rect x="510" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="829">f8</text>
- <rect x="574" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="829">f9</text>
- <rect x="638" y="804" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="829">f10</text>
- <rect x="382" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="412" y="883">f11</text>
- <rect x="446" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="476" y="883">f12</text>
- <rect x="510" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="540" y="883"></text>
- <rect x="574" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="883"></text>
- <rect x="638" y="858" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="883"></text>
- <rect x="160" y="912" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="190" y="937">num</text>
- <rect x="224" y="912" width="124" height="50" rx="5" ry="5" />
- <text x="286" y="937">shift</text>
- <rect x="382" y="912" width="124" height="50" rx="5" ry="5" />
- <text x="444" y="937">space</text>
- <rect x="510" y="912" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="540" y="937">num</text>
+ <text x="32" y="802" class="layer">num</text>
+ <rect x="32" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="62" y="847"></text>
+ <rect x="96" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="126" y="847">7</text>
+ <rect x="160" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="847">8</text>
+ <rect x="224" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="254" y="847">9</text>
+ <rect x="288" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="847">,</text>
+ <rect x="32" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="62" y="901"></text>
+ <rect x="96" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="126" y="901">4</text>
+ <rect x="160" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="901">5</text>
+ <rect x="224" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="254" y="901">6</text>
+ <rect x="288" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="901">.</text>
+ <rect x="32" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="62" y="955"></text>
+ <rect x="96" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="126" y="955">1</text>
+ <rect x="160" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="190" y="955">2</text>
+ <rect x="224" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="254" y="955">3</text>
+ <rect x="288" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="955">0</text>
+ <rect x="382" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="847">f1</text>
+ <rect x="446" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="476" y="847">f2</text>
+ <rect x="510" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="847">f3</text>
+ <rect x="574" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="604" y="847">f4</text>
+ <rect x="638" y="822" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="847">f5</text>
+ <rect x="382" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="901">f6</text>
+ <rect x="446" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="476" y="901">f7</text>
+ <rect x="510" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="901">f8</text>
+ <rect x="574" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="604" y="901">f9</text>
+ <rect x="638" y="876" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="901">f10</text>
+ <rect x="382" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="412" y="955">f11</text>
+ <rect x="446" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="476" y="955">f12</text>
+ <rect x="510" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="540" y="955"></text>
+ <rect x="574" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="604" y="955"></text>
+ <rect x="638" y="930" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="955"></text>
+ <rect x="160" y="984" width="60" height="50" class="hold" rx="5" ry="5" />
+ <text x="190" y="1009">num</text>
+ <rect x="224" y="984" width="124" height="50" rx="5" ry="5" />
+ <text x="286" y="1009">shift</text>
+ <rect x="382" y="984" width="124" height="50" rx="5" ry="5" />
+ <text x="444" y="1009">space</text>
+ <rect x="510" y="984" width="60" height="50" class="hold" rx="5" ry="5" />
+ <text x="540" y="1009">num</text>
  
 </svg>
 
