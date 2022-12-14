@@ -66,8 +66,10 @@ $IsSplit = $keeb.layout.split
 $NumRows = $keeb.layout.rows
 $NumColumns = $keeb.layout.columns
 $NumThumbs = 0
+$thumb_offset = 0
 $NumLayers = $(foreach ($PropName in $keeb.layers.PSObject.Properties.Name) { $PropName }).Count
 if($keeb.layout.thumbs) { $NumThumbs = $keeb.layout.thumbs }
+if($keeb.layout.thumb_offset) { $thumb_offset = $keeb.layout.thumb_offset }
 
 # Calculated variables
 $keyspace_w = $key_w + 2 * $pad_inner_w
@@ -78,21 +80,33 @@ $layer_w = 0
 $layer_h = 0
 $board_w = 0
 $board_h = 0
+$padding_offset = 0
 $LayerNameLabel_h = 0
 if ($PrintLayerName) { $LayerNameLabel_h = 18 }
 
 
 if($IsSplit) {
     # For split keyboards
-    $hand_w = $NumColumns * $keyspace_w
-    if($NumThumbs -gt 0){
-        $hand_h = ($NumRows + 1) * $keyspace_h
+
+    if(($NumColumns + $thumb_offset - $NumThumbs) -lt 0){
+        $padding_offset = -1 * ($NumColumns + $thumb_offset - $NumThumbs) * $keyspace_w
     }
-    else {
-        $hand_h = $NumRows * $keyspace_h
-    }
+
+
+    $hand_w = $NumColumns * $keyspace_w + $padding_offset
+    $hand_h = $NumRows * $keyspace_h
     $layer_w = $hand_w * 2 + $pad_outer_w
+ 
+ 
+    if($NumThumbs -gt 0){
+        $hand_h += $keyspace_h
+        if($thumb_offset -gt 0){
+            $layer_w += 2 * $thumb_offset * $keyspace_w
+        }
+    }
+
     $layer_h = $hand_h
+ 
     $board_w = $layer_w + 2 * $pad_outer_w
     $board_h = $NumLayers * $layer_h + ($NumLayers + 1) * $pad_outer_h + $NumLayers * $LayerNameLabel_h
 }
@@ -169,13 +183,18 @@ function print_layer {
 
     if($IsSplit) {
         # Split keeb prints left and right
-        print_block $x $y $layer.left
-        print_block $($x + $hand_w + $pad_outer_w) $y $layer.right
+        $x_left_block = $x + $padding_offset
+        $x_right_block = $x + $hand_w + $pad_outer_w
+        if($thumb_offset -gt 0){
+            $x_right_block += 2 * $thumb_offset * $keyspace_w
+        }
+        print_block $x_left_block $y $layer.left
+        print_block $x_right_block $y $layer.right
         
         if($NumThumbs -gt 0){
             # If thumbs are defined, print left and right
-            print_row $($x + ($NumColumns - $NumThumbs) * $keyspace_w) $($y + $NumRows * $keyspace_h) $layer.thumbs.left
-            print_row $($x + $hand_w + $pad_outer_w) $($y + $NumRows * $keyspace_h) $layer.thumbs.right
+            print_row $($x + ($NumColumns - $NumThumbs) * $keyspace_w + $thumb_offset * $keyspace_w + $padding_offset) $($y + $NumRows * $keyspace_h) $layer.thumbs.left
+            print_row $($x_right_block + -1 * $thumb_offset * $keyspace_w) $($y + $NumRows * $keyspace_h) $layer.thumbs.right
         }
        
     }
@@ -195,7 +214,7 @@ function print_board {
     foreach($l in $keymap.PSObject.Properties.Name) {
         $y += $pad_outer_h
         if($PrintLayerName) {
-            '<text x="{0}" y="{1}" class="layer">{2}</text>' -f (($x + $pad_inner_w) ,$y,[System.Net.WebUtility]::HtmlEncode($l))  + "`n"
+            '<text x="{0}" y="{1}" class="layer">{2}</text>' -f (($x + $pad_inner_w + $padding_offset) ,$y,[System.Net.WebUtility]::HtmlEncode($l))  + "`n"
             $y += $LayerNameLabel_h
         }
         print_layer $x $y $keymap.$($l)

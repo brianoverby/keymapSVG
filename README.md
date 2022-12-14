@@ -6,12 +6,17 @@ I use PowerShell a lot more than python, so I converted it to PowerShell and sim
 
 
 ## Supported layouts
-The script supports ortho keymaps and split keymaps (with and without thumb keys). Keys kan be more tha 1u wide on any row.
+The script supports ortho keymaps and split keymaps (with and without thumb keys). Keys kan be more than 1u wide on any row.
 ### Layout examples
 ```
-x x x x x x x x    x x x x   x x x x    x x x x   x x x x    x x x x   x x x x
-x x x x x x x x    x x x x   x x x x    x x x x   x x x x    x x x x   x x x x
-x x x xxx x x x        x x   x x        x x x x   x x x x      x x x   xxx
+x x x x x x x x    x x x x   x x x x    x x x x   x x x x
+x x x x x x x x    x x x x   x x x x    x x x x   x x x x
+x x x xxx x x x        x x   x x        x x x x   x x x x
+
+
+x x x x x       x x x x x    x x x x   x x x x    x x x x   x x x x
+x x x x x       x x x x x    x x x x   x x x x    x x x x   x x x x
+      x x x   x x x          x x           x x      x x x   xxx
 ```
 
 ## Get started
@@ -69,6 +74,8 @@ The basic json file format is like this:
 NOTE: If split is `true` then rows,columns and thumbs are number of rows/columns/thumbs for one half.    
 
 Any keys you wish to have blank legend should be given the `null` value. Keys next to each other in the same row with the same legend will be merged to one. So to create a 2u spacebar you just create two keys with the same legend - like: `"space","space"`or `"",""` (`null` keys are not merged).    
+
+It's also possible to offset the thumb keys on split layouts. Offset is a whole number - positive is offset to the center, negative is offset to the edges. So to push thumb keys two keys to the center of the board, you just add the `"thumb_offset": 1` to the `layout` section - see the [sample layout - layout_3x6-3](json/layout_3x6-3.json).
 
 It's also posible to add a style (css) class to the key in the format `"stylename::legend"`. You will have to add the css to the `<style>...</style>` section of the svg output after it's created (the `hold` class is included and is styled with color).
 

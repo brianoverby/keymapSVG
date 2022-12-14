@@ -1,0 +1,60 @@
+{
+    "layout": {
+        "split": true,
+        "rows": 3,
+        "columns": 6,
+        "thumbs": 3,
+        "thumb_offset": 1
+    },
+    "layers": {
+        "qwerty": {
+            "left": [
+                ["tab","q", "w", "e", "r", "t"], 
+                ["ctrl","a", "s", "d", "f", "g"],
+                ["shift","z", "x", "c", "v", "b"]
+            ],
+            "right": [
+                ["y", "u", "i", "o", "p", "bksp"],
+                ["h", "j", "k", "l", ";", "'"],
+                ["n", "m", ",", ".", "/", "shift"]
+            ],
+            "thumbs": {
+                "left":  ["sym", "cmd", "space"],
+                "right": ["enter", "alt", "nav"] 
+            } 
+        },
+        "nav": {
+            "left": [
+                ["tab",null,null, "7", "8", "9"],
+                ["ctrl",null,null, "4", "5", "6"],
+                ["shift",null,null, "1", "2", "3"]
+            ],
+            "right": [
+                ["pgup", "home", "up", "end", null,"bksp"],
+                ["pgdn", "left", "down", "right", null,null],
+                [null, null, "æ", "ø", "å", "shift"]
+            ],
+            "thumbs": {
+                "left":  ["sym", "cmd", "0"],
+                "right": ["enter", "alt", "hold::nav"] 
+            } 
+        },
+        "sym": {
+            "left": [
+                ["tab","!", "@", "#", "$", "%"],
+                ["ctrl","&", "*", "_", null, null],
+                ["shift","|", "+", "-", "=", "\\"]
+            ],
+            "right": [
+                [null, "(", ")", "^", "~","bksp"],
+                [null, "{", "}", "´", "`",null],
+                [null, "[", "]", "¨", null,"shift"]
+            ],
+            "thumbs": {
+                "left":  ["hold::sym", "cmd", "space"],
+                "right": ["enter", "alt", "nav"] 
+            } 
+        }
+    }
+}
+
