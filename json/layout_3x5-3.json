@@ -41,9 +41,9 @@
         },
         "nav": {
             "left": [
-                ["tab", null, null, "repeat", null],
-                ["1", "2", "3", "4", "5"],
-                ["6", "7", "8", "9", "0"]
+                ["tab", "7", "8", "9", ","],
+                ["esc", "4", "5", "6", "."],
+                [null, "1", "2", "3", "0"]
             ],
             "right": [
                 ["pgup", "home", "↑", "end", null],
@@ -52,6 +52,22 @@
             ],
             "thumbs": {
                 "left":  ["cmd","sym", "shift"],
+                "right": ["space", "hold::nav","opt"] 
+            } 
+        },
+        "fun": {
+            "left": [
+                ["f1", "f2", "f3", "f4", null],
+                ["f5", "f6", "f7", "f8", null],
+                ["f9", "f10", "f11", "f12", null]
+            ],
+            "right": [
+                [null, null, null, null, null],
+                ["ctrl", "opt", "shift", null, null],
+                [null, null, null, null, null]
+            ],
+            "thumbs": {
+                "left":  ["cmd","hold::sym", "shift"],
                 "right": ["space", "hold::nav","opt"] 
             } 
         }
