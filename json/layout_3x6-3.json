@@ -9,50 +9,50 @@
     "layers": {
         "qwerty": {
             "left": [
-                ["tab","q", "w", "e", "r", "t"], 
+                ["esc","q", "w", "e", "r", "t"], 
                 ["ctrl","a", "s", "d", "f", "g"],
                 ["shift","z", "x", "c", "v", "b"]
             ],
             "right": [
                 ["y", "u", "i", "o", "p", "bksp"],
                 ["h", "j", "k", "l", ";", "'"],
-                ["n", "m", ",", ".", "/", "shift"]
+                ["n", "m", ",", ".", "/", "tab"]
             ],
             "thumbs": {
-                "left":  ["sym", "cmd", "space"],
-                "right": ["enter", "alt", "nav"] 
+                "left":  ["cmd", "nav", "space"],
+                "right": ["enter", "sym", "opt"] 
             } 
         },
         "nav": {
             "left": [
-                ["tab",null,null, "7", "8", "9"],
-                ["ctrl",null,null, "4", "5", "6"],
-                ["shift",null,null, "1", "2", "3"]
+                ["tab","lock","swap win", "search", "vol down", "vol up"],
+                ["ctrl","f1", "f2", "f3", "f4", "f5"],
+                ["shift","f6", "f7", "f8", "f9", "f10"]
             ],
             "right": [
-                ["pgup", "home", "up", "end", null,"bksp"],
-                ["pgdn", "left", "down", "right", null,null],
-                [null, null, "æ", "ø", "å", "shift"]
+                ["pgup", "home", "up", "end", null, "bksp"],
+                ["pgdn", "left", "down", "right", null, null],
+                ["f11", "f12", "æ", "ø", "å", "tab"]
             ],
             "thumbs": {
-                "left":  ["sym", "cmd", "0"],
-                "right": ["enter", "alt", "hold::nav"] 
+                "left":  ["cmd", "hold::nav", "space"],
+                "right": ["enter", "sym", "opt"]  
             } 
         },
         "sym": {
             "left": [
-                ["tab","!", "@", "#", "$", "%"],
-                ["ctrl","&", "*", "_", null, null],
-                ["shift","|", "+", "-", "=", "\\"]
+                ["tab", "!", "@", "#", "$", "%"],
+                ["ctrl", "1", "2", "3", "4", "5"],
+                ["shift", "6", "7", "8", "9", "0"]
             ],
             "right": [
-                [null, "(", ")", "^", "~","bksp"],
-                [null, "{", "}", "´", "`",null],
-                [null, "[", "]", "¨", null,"shift"]
+                ["^", "&", "*", "(", ")", "\\"],
+                ["-", "=", "`", "{", "}", "|"],
+                ["_", "=", "`", "[", "]", "tab"]
             ],
             "thumbs": {
-                "left":  ["hold::sym", "cmd", "space"],
-                "right": ["enter", "alt", "nav"] 
+                "left":  ["cmd", "nav", "space"],
+                "right": ["enter", "hold::sym", "opt"] 
             } 
         }
     }

@@ -27,7 +27,7 @@ text {
 </style>
 <text x="32" y="25" class="layer">qwerty</text>
  <rect x="32" y="45" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="70">tab</text>
+ <text x="62" y="70">esc</text>
  <rect x="96" y="45" width="60" height="50" rx="5" ry="5" />
  <text x="126" y="70">q</text>
  <rect x="160" y="45" width="60" height="50" rx="5" ry="5" />
@@ -97,57 +97,60 @@ text {
  <rect x="830" y="153" width="60" height="50" rx="5" ry="5" />
  <text x="860" y="178">/</text>
  <rect x="894" y="153" width="60" height="50" rx="5" ry="5" />
- <text x="924" y="178">shift</text>
+ <text x="924" y="178">tab</text>
  <rect x="288" y="207" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="232">sym</text>
+ <text x="318" y="232">cmd</text>
  <rect x="352" y="207" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="232">cmd</text>
+ <text x="382" y="232">nav</text>
  <rect x="416" y="207" width="60" height="50" rx="5" ry="5" />
  <text x="446" y="232">space</text>
  <rect x="510" y="207" width="60" height="50" rx="5" ry="5" />
  <text x="540" y="232">enter</text>
  <rect x="574" y="207" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="232">alt</text>
+ <text x="604" y="232">sym</text>
  <rect x="638" y="207" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="232">nav</text>
+ <text x="668" y="232">opt</text>
  
  <text x="32" y="284" class="layer">nav</text>
  <rect x="32" y="304" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="329">tab</text>
  <rect x="96" y="304" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="329"></text>
+ <text x="126" y="329">lock</text>
  <rect x="160" y="304" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="329"></text>
+ <text x="190" y="321">swap</text>
+ <text x="190" y="337">win</text>
  <rect x="224" y="304" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="329">7</text>
+ <text x="254" y="329">search</text>
  <rect x="288" y="304" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="329">8</text>
+ <text x="318" y="321">vol</text>
+ <text x="318" y="337">down</text>
  <rect x="352" y="304" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="329">9</text>
+ <text x="382" y="321">vol</text>
+ <text x="382" y="337">up</text>
  <rect x="32" y="358" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="383">ctrl</text>
  <rect x="96" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="383"></text>
+ <text x="126" y="383">f1</text>
  <rect x="160" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="383"></text>
+ <text x="190" y="383">f2</text>
  <rect x="224" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="383">4</text>
+ <text x="254" y="383">f3</text>
  <rect x="288" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="383">5</text>
+ <text x="318" y="383">f4</text>
  <rect x="352" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="383">6</text>
+ <text x="382" y="383">f5</text>
  <rect x="32" y="412" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="437">shift</text>
  <rect x="96" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="437"></text>
+ <text x="126" y="437">f6</text>
  <rect x="160" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="437"></text>
+ <text x="190" y="437">f7</text>
  <rect x="224" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="437">1</text>
+ <text x="254" y="437">f8</text>
  <rect x="288" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="437">2</text>
+ <text x="318" y="437">f9</text>
  <rect x="352" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="437">3</text>
+ <text x="382" y="437">f10</text>
  <rect x="574" y="304" width="60" height="50" rx="5" ry="5" />
  <text x="604" y="329">pgup</text>
  <rect x="638" y="304" width="60" height="50" rx="5" ry="5" />
@@ -173,9 +176,9 @@ text {
  <rect x="894" y="358" width="60" height="50" rx="5" ry="5" />
  <text x="924" y="383"></text>
  <rect x="574" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="437"></text>
+ <text x="604" y="437">f11</text>
  <rect x="638" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="437"></text>
+ <text x="668" y="437">f12</text>
  <rect x="702" y="412" width="60" height="50" rx="5" ry="5" />
  <text x="732" y="437">&#230;</text>
  <rect x="766" y="412" width="60" height="50" rx="5" ry="5" />
@@ -183,19 +186,19 @@ text {
  <rect x="830" y="412" width="60" height="50" rx="5" ry="5" />
  <text x="860" y="437">&#229;</text>
  <rect x="894" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="924" y="437">shift</text>
+ <text x="924" y="437">tab</text>
  <rect x="288" y="466" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="491">sym</text>
- <rect x="352" y="466" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="491">cmd</text>
+ <text x="318" y="491">cmd</text>
+ <rect x="352" y="466" width="60" height="50" class="hold" rx="5" ry="5" />
+ <text x="382" y="491">nav</text>
  <rect x="416" y="466" width="60" height="50" rx="5" ry="5" />
- <text x="446" y="491">0</text>
+ <text x="446" y="491">space</text>
  <rect x="510" y="466" width="60" height="50" rx="5" ry="5" />
  <text x="540" y="491">enter</text>
  <rect x="574" y="466" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="491">alt</text>
- <rect x="638" y="466" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="668" y="491">nav</text>
+ <text x="604" y="491">sym</text>
+ <rect x="638" y="466" width="60" height="50" rx="5" ry="5" />
+ <text x="668" y="491">opt</text>
  
  <text x="32" y="543" class="layer">sym</text>
  <rect x="32" y="563" width="60" height="50" rx="5" ry="5" />
@@ -213,75 +216,75 @@ text {
  <rect x="32" y="617" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="642">ctrl</text>
  <rect x="96" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="642">&amp;</text>
+ <text x="126" y="642">1</text>
  <rect x="160" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="642">*</text>
+ <text x="190" y="642">2</text>
  <rect x="224" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="642">_</text>
+ <text x="254" y="642">3</text>
  <rect x="288" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="642"></text>
+ <text x="318" y="642">4</text>
  <rect x="352" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="642"></text>
+ <text x="382" y="642">5</text>
  <rect x="32" y="671" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="696">shift</text>
  <rect x="96" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="696">|</text>
+ <text x="126" y="696">6</text>
  <rect x="160" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="696">+</text>
+ <text x="190" y="696">7</text>
  <rect x="224" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="696">-</text>
+ <text x="254" y="696">8</text>
  <rect x="288" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="696">=</text>
+ <text x="318" y="696">9</text>
  <rect x="352" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="696">\</text>
+ <text x="382" y="696">0</text>
  <rect x="574" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="588"></text>
+ <text x="604" y="588">^</text>
  <rect x="638" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="588">(</text>
+ <text x="668" y="588">&amp;</text>
  <rect x="702" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="732" y="588">)</text>
+ <text x="732" y="588">*</text>
  <rect x="766" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="796" y="588">^</text>
+ <text x="796" y="588">(</text>
  <rect x="830" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="860" y="588">~</text>
+ <text x="860" y="588">)</text>
  <rect x="894" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="924" y="588">bksp</text>
+ <text x="924" y="588">\</text>
  <rect x="574" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="642"></text>
+ <text x="604" y="642">-</text>
  <rect x="638" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="642">{</text>
+ <text x="668" y="642">=</text>
  <rect x="702" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="732" y="642">}</text>
+ <text x="732" y="642">`</text>
  <rect x="766" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="796" y="642">&#180;</text>
+ <text x="796" y="642">{</text>
  <rect x="830" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="860" y="642">`</text>
+ <text x="860" y="642">}</text>
  <rect x="894" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="924" y="642"></text>
+ <text x="924" y="642">|</text>
  <rect x="574" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="696"></text>
+ <text x="604" y="696">_</text>
  <rect x="638" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="696">[</text>
+ <text x="668" y="696">=</text>
  <rect x="702" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="732" y="696">]</text>
+ <text x="732" y="696">`</text>
  <rect x="766" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="796" y="696">&#168;</text>
+ <text x="796" y="696">[</text>
  <rect x="830" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="860" y="696"></text>
+ <text x="860" y="696">]</text>
  <rect x="894" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="924" y="696">shift</text>
- <rect x="288" y="725" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="318" y="750">sym</text>
+ <text x="924" y="696">tab</text>
+ <rect x="288" y="725" width="60" height="50" rx="5" ry="5" />
+ <text x="318" y="750">cmd</text>
  <rect x="352" y="725" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="750">cmd</text>
+ <text x="382" y="750">nav</text>
  <rect x="416" y="725" width="60" height="50" rx="5" ry="5" />
  <text x="446" y="750">space</text>
  <rect x="510" y="725" width="60" height="50" rx="5" ry="5" />
  <text x="540" y="750">enter</text>
- <rect x="574" y="725" width="60" height="50" rx="5" ry="5" />
- <text x="604" y="750">alt</text>
+ <rect x="574" y="725" width="60" height="50" class="hold" rx="5" ry="5" />
+ <text x="604" y="750">sym</text>
  <rect x="638" y="725" width="60" height="50" rx="5" ry="5" />
- <text x="668" y="750">nav</text>
+ <text x="668" y="750">opt</text>
  
 </svg>
 
