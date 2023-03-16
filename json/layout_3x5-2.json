@@ -40,7 +40,7 @@
         },
         "nav": {
             "left": [
-                ["esc", null, null, "repeat", "tab"],
+                ["esc", "swap win", "search", "repeat", "tab"],
                 ["shift", "ctrl", "alt", "cmd", "cancel"],
                 ["undo", "cut", "copy", "paste", null]
             ],

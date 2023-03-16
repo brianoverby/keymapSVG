@@ -169,9 +169,10 @@ text {
  <rect x="32" y="563" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="588">esc</text>
  <rect x="96" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="588"></text>
+ <text x="126" y="580">swap</text>
+ <text x="126" y="596">win</text>
  <rect x="160" y="563" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="588"></text>
+ <text x="190" y="588">search</text>
  <rect x="224" y="563" width="60" height="50" rx="5" ry="5" />
  <text x="254" y="588">repeat</text>
  <rect x="288" y="563" width="60" height="50" rx="5" ry="5" />
