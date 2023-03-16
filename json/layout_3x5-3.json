@@ -15,12 +15,12 @@
             ],
             "right": [
                 ["y", "u", "i", "o", "p"],
-                ["h", "j", "k", "l", "bksp"],
-                ["n", "m", ",", ".", "enter (ctrl)"]
+                ["h", "j", "k", "l", ";"],
+                ["n", "m", ",", ".", "/"]
             ],
             "thumbs": {
                 "left":  ["cmd","sym", "shift"],
-                "right": ["space", "nav","opt"] 
+                "right": ["space", "nav","ctrl"] 
             } 
         },
         "sym": {
@@ -30,29 +30,29 @@
                 ["|", "+", "-", "=", "\\"]
             ],
             "right": [
-                ["(", ")", "^", "?", "~"],
-                ["{", "}", "¨", "´", "`"],
-                ["[", "]", ";", ":", "/"]
+                ["^", "~", "(", ")", "bksp"],
+                ["`", "´","{", "}", "del"],
+                [null, "¨","[", "]", "enter"]
             ],
             "thumbs": {
                 "left": [ "cmd","hold::sym", "shift"],
-                "right": [ "space", "nav","opt"]
+                "right": [ "space", "nav","ctrl"]
             } 
         },
         "nav": {
             "left": [
-                ["tab", "7", "8", "9", ","],
-                ["esc", "4", "5", "6", "."],
+                ["esc", "7", "8", "9", ","],
+                ["tab", "4", "5", "6", "."],
                 [null, "1", "2", "3", "0"]
             ],
             "right": [
-                ["pgup", "home", "↑", "end", null],
+                ["pgup", "home", "↑", "end", "bksp"],
                 ["pgdn", "←", "↓", "→", "del"],
-                [null, "æ", "ø", "å", "enter (ctrl)"]
+                [null, "æ", "ø", "å", "enter"]
             ],
             "thumbs": {
                 "left":  ["cmd","sym", "shift"],
-                "right": ["space", "hold::nav","opt"] 
+                "right": ["space", "hold::nav","ctrl"] 
             } 
         },
         "fun": {
@@ -68,7 +68,7 @@
             ],
             "thumbs": {
                 "left":  ["cmd","hold::sym", "shift"],
-                "right": ["space", "hold::nav","opt"] 
+                "right": ["space", "hold::nav","ctrl"] 
             } 
         }
     }

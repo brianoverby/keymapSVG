@@ -29,45 +29,45 @@
                 ["|", "+", "-", "=", "\\"]
             ],
             "right": [
-                ["(", ")", "^", null, "~"],
-                ["{", "}", "¨", "´", "`"],
-                ["[", "]", "æ", "ø", "å"]
+                ["^", "~","(", ")", "bksp" ],
+                ["`", "´", "{", "}", "del" ],
+                [null, "¨", "[", "]", "enter"]
             ],
             "thumbs": {
-                "left": [ "num", "shift"],
+                "left": [ "nav", "shift"],
                 "right": [ "space", "hold::sym"]
             } 
         },
         "nav": {
             "left": [
-                ["tab", null, null, "repeat", null],
+                ["esc", null, null, "repeat", "tab"],
                 ["shift", "ctrl", "alt", "cmd", "cancel"],
-                ["esc", "cut", "copy", "paste", null]
+                ["undo", "cut", "copy", "paste", null]
             ],
             "right": [
                 ["pgup", "home", "↑", "end", "bksp"],
                 ["pgdn", "←", "↓", "→", "del"],
-                ["insert", "print screen", null, null, "enter"]
+                [null, "æ", "ø", "å", "enter"]
             ],
             "thumbs": {
                 "left": [ "hold::nav", "shift"],
-                "right": [ "space", "num"]
+                "right": [ "space", "sym"]
             } 
         },
         "num": {
             "left": [
-                ["tab", "7", "8", "9", null],
+                [null, "7", "8", "9", "tab"],
                 [",", "4", "5", "6", null],
                 [".", "1", "2", "3", "0"]
             ],
             "right": [
-                ["f1", "f2", "f3", "f4", "f5"],
-                ["f6", "f7", "f8", "f9", "f10"],
-                ["f11", "f12", null, "OS toggle", "enter"]
+                ["f1", "f2", "f3", "f4", "bksp"],
+                ["f5", "f6", "f7", "f8", "del"],
+                ["f9", "f10", "f11", "f12", "enter"]
             ],
             "thumbs": {
-                "left": [ "hold::num", "shift"],
-                "right": [ "space", "hold::num"]
+                "left": [ "hold::nav", "shift"],
+                "right": [ "space", "hold::sym"]
             } 
         }
     }
