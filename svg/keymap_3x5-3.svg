@@ -5,20 +5,24 @@ svg {
     font-size: 14px;
     font-kerning: normal;
     text-rendering: optimizeLegibility;
+    background-color: #111111;
 }
 rect {
-    fill: #F9F9FC;
+    fill: #333333;
 }
 text {
-    fill: #403d39;
+    fill: #cccccc;
     text-anchor: middle;
     dominant-baseline: middle;
 }
-.hold {
+rect.hold {
     fill: #D7ECFE;
 }
+text.hold {
+    fill: #333333;
+}
 .layer {
-    fill: #403d39;
+    fill: #cccccc;
     text-anchor: start;
     dominant-baseline: hanging;
     font-weight: bold;
@@ -163,7 +167,7 @@ text {
  <rect x="224" y="466" width="60" height="50" rx="5" ry="5" />
  <text x="254" y="491">cmd</text>
  <rect x="288" y="466" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="318" y="491">sym</text>
+ <text x="318" y="491" class="hold">sym</text>
  <rect x="352" y="466" width="60" height="50" rx="5" ry="5" />
  <text x="382" y="491">shift</text>
  <rect x="446" y="466" width="60" height="50" rx="5" ry="5" />
@@ -243,7 +247,7 @@ text {
  <rect x="446" y="725" width="60" height="50" rx="5" ry="5" />
  <text x="476" y="750">space</text>
  <rect x="510" y="725" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="540" y="750">nav</text>
+ <text x="540" y="750" class="hold">nav</text>
  <rect x="574" y="725" width="60" height="50" rx="5" ry="5" />
  <text x="604" y="750">ctrl</text>
  
@@ -311,13 +315,13 @@ text {
  <rect x="224" y="984" width="60" height="50" rx="5" ry="5" />
  <text x="254" y="1009">cmd</text>
  <rect x="288" y="984" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="318" y="1009">sym</text>
+ <text x="318" y="1009" class="hold">sym</text>
  <rect x="352" y="984" width="60" height="50" rx="5" ry="5" />
  <text x="382" y="1009">shift</text>
  <rect x="446" y="984" width="60" height="50" rx="5" ry="5" />
  <text x="476" y="1009">space</text>
  <rect x="510" y="984" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="540" y="1009">nav</text>
+ <text x="540" y="1009" class="hold">nav</text>
  <rect x="574" y="984" width="60" height="50" rx="5" ry="5" />
  <text x="604" y="1009">ctrl</text>
  
