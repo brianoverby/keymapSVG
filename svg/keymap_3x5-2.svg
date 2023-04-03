@@ -5,20 +5,24 @@ svg {
     font-size: 14px;
     font-kerning: normal;
     text-rendering: optimizeLegibility;
+    background-color: #111111;
 }
 rect {
-    fill: #F9F9FC;
+    fill: #333333;
 }
 text {
-    fill: #403d39;
+    fill: #eeeeee;
     text-anchor: middle;
     dominant-baseline: middle;
 }
-.hold {
-    fill: #D7ECFE;
+rect.hold {
+    fill: #eeeeee;
+}
+text.hold {
+    fill: #333333;
 }
 .layer {
-    fill: #403d39;
+    fill: #eeeeee;
     text-anchor: start;
     dominant-baseline: hanging;
     font-weight: bold;
@@ -163,7 +167,7 @@ text {
  <rect x="382" y="466" width="60" height="50" rx="5" ry="5" />
  <text x="412" y="491">space</text>
  <rect x="446" y="466" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="476" y="491">sym</text>
+ <text x="476" y="491" class="hold">sym</text>
  
  <text x="32" y="543" class="layer">nav</text>
  <rect x="32" y="563" width="60" height="50" rx="5" ry="5" />
@@ -228,7 +232,7 @@ text {
  <rect x="638" y="671" width="60" height="50" rx="5" ry="5" />
  <text x="668" y="696">enter</text>
  <rect x="224" y="725" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="254" y="750">nav</text>
+ <text x="254" y="750" class="hold">nav</text>
  <rect x="288" y="725" width="60" height="50" rx="5" ry="5" />
  <text x="318" y="750">shift</text>
  <rect x="382" y="725" width="60" height="50" rx="5" ry="5" />
@@ -298,13 +302,13 @@ text {
  <rect x="638" y="930" width="60" height="50" rx="5" ry="5" />
  <text x="668" y="955">enter</text>
  <rect x="224" y="984" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="254" y="1009">nav</text>
+ <text x="254" y="1009" class="hold">nav</text>
  <rect x="288" y="984" width="60" height="50" rx="5" ry="5" />
  <text x="318" y="1009">shift</text>
  <rect x="382" y="984" width="60" height="50" rx="5" ry="5" />
  <text x="412" y="1009">space</text>
  <rect x="446" y="984" width="60" height="50" class="hold" rx="5" ry="5" />
- <text x="476" y="1009">sym</text>
+ <text x="476" y="1009" class="hold">sym</text>
  
 </svg>
 

@@ -38,20 +38,24 @@ svg {
     font-size: 14px;
     font-kerning: normal;
     text-rendering: optimizeLegibility;
+    background-color: #111111;
 }
 rect {
-    fill: #F9F9FC;
+    fill: #333333;
 }
 text {
-    fill: #403d39;
+    fill: #cccccc;
     text-anchor: middle;
     dominant-baseline: middle;
 }
-.hold {
+rect.hold {
     fill: #D7ECFE;
 }
+text.hold {
+    fill: #333333;
+}
 .layer {
-    fill: #403d39;
+    fill: #cccccc;
     text-anchor: start;
     dominant-baseline: hanging;
     font-weight: bold;
@@ -142,7 +146,7 @@ function print_key {
     $y += ($keyspace_h - ($words.Length - 1) * $line_spacing) / 2
 
     foreach ($word in $words) {
-        '<text x="{0}" y="{1}">{2}</text>' -f ($x + ($keyspace_w / 2) * $width),$y,[System.Net.WebUtility]::HtmlEncode($word) + "`n"
+        '<text x="{0}" y="{1}"{2}>{3}</text>' -f ($x + ($keyspace_w / 2) * $width),$y,$key_class_text,[System.Net.WebUtility]::HtmlEncode($word) + "`n"
         $y += $line_spacing
     }
 
