@@ -1,4 +1,4 @@
-﻿<svg width="828" height="1061" viewBox="0 0 828 1061" xmlns="http://www.w3.org/2000/svg">
+<svg width="828" height="1061" viewBox="0 0 828 1061" xmlns="http://www.w3.org/2000/svg">
 <style>
 svg {
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
@@ -105,11 +105,11 @@ text.hold {
  <rect x="32" y="207" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="232">fn</text>
  <rect x="96" y="207" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="232">ctrl</text>
+ <text x="126" y="232">gui</text>
  <rect x="160" y="207" width="60" height="50" rx="5" ry="5" />
  <text x="190" y="232">alt</text>
  <rect x="224" y="207" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="232">gui</text>
+ <text x="254" y="232">ctrl</text>
  <rect x="288" y="207" width="60" height="50" rx="5" ry="5" />
  <text x="318" y="232">lower</text>
  <rect x="352" y="207" width="124" height="50" rx="5" ry="5" />
@@ -153,17 +153,17 @@ text.hold {
  <rect x="32" y="358" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="383">esc</text>
  <rect x="96" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="383">f1</text>
+ <text x="126" y="383"></text>
  <rect x="160" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="383">f2</text>
+ <text x="190" y="383"></text>
  <rect x="224" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="383">f3</text>
+ <text x="254" y="383"></text>
  <rect x="288" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="383">f4</text>
+ <text x="318" y="383"></text>
  <rect x="352" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="383">f5</text>
+ <text x="382" y="383"></text>
  <rect x="416" y="358" width="60" height="50" rx="5" ry="5" />
- <text x="446" y="383">f6</text>
+ <text x="446" y="383"></text>
  <rect x="480" y="358" width="60" height="50" rx="5" ry="5" />
  <text x="510" y="383">_</text>
  <rect x="544" y="358" width="60" height="50" rx="5" ry="5" />
@@ -177,17 +177,17 @@ text.hold {
  <rect x="32" y="412" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="437">shift</text>
  <rect x="96" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="437">f7</text>
+ <text x="126" y="437"></text>
  <rect x="160" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="437">f8</text>
+ <text x="190" y="437"></text>
  <rect x="224" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="437">f9</text>
+ <text x="254" y="437"></text>
  <rect x="288" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="437">f10</text>
+ <text x="318" y="437"></text>
  <rect x="352" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="437">f11</text>
+ <text x="382" y="437"></text>
  <rect x="416" y="412" width="60" height="50" rx="5" ry="5" />
- <text x="446" y="437">f12</text>
+ <text x="446" y="437"></text>
  <rect x="480" y="412" width="60" height="50" rx="5" ry="5" />
  <text x="510" y="437">-</text>
  <rect x="544" y="412" width="60" height="50" rx="5" ry="5" />
@@ -201,11 +201,11 @@ text.hold {
  <rect x="32" y="466" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="491">fn</text>
  <rect x="96" y="466" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="491">ctrl</text>
+ <text x="126" y="491">gui</text>
  <rect x="160" y="466" width="60" height="50" rx="5" ry="5" />
  <text x="190" y="491">alt</text>
  <rect x="224" y="466" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="491">gui</text>
+ <text x="254" y="491">ctrl</text>
  <rect x="288" y="466" width="60" height="50" class="hold" rx="5" ry="5" />
  <text x="318" y="491" class="hold">lower</text>
  <rect x="352" y="466" width="124" height="50" rx="5" ry="5" />
@@ -261,29 +261,29 @@ text.hold {
  <rect x="416" y="617" width="60" height="50" rx="5" ry="5" />
  <text x="446" y="642">f6</text>
  <rect x="480" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="510" y="642"></text>
+ <text x="510" y="642">f7</text>
  <rect x="544" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="574" y="642"></text>
+ <text x="574" y="642">f8</text>
  <rect x="608" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="638" y="642"></text>
+ <text x="638" y="642">f9</text>
  <rect x="672" y="617" width="60" height="50" rx="5" ry="5" />
- <text x="702" y="642"></text>
+ <text x="702" y="642">f10</text>
  <rect x="736" y="617" width="60" height="50" rx="5" ry="5" />
  <text x="766" y="642">&#168;</text>
  <rect x="32" y="671" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="696">shift</text>
  <rect x="96" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="696">f7</text>
+ <text x="126" y="696">f11</text>
  <rect x="160" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="696">f8</text>
+ <text x="190" y="696">f12</text>
  <rect x="224" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="696">f9</text>
+ <text x="254" y="696"></text>
  <rect x="288" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="696">f10</text>
+ <text x="318" y="696"></text>
  <rect x="352" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="382" y="696">f11</text>
+ <text x="382" y="696"></text>
  <rect x="416" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="446" y="696">f12</text>
+ <text x="446" y="696"></text>
  <rect x="480" y="671" width="60" height="50" rx="5" ry="5" />
  <text x="510" y="696"></text>
  <rect x="544" y="671" width="60" height="50" rx="5" ry="5" />
@@ -291,17 +291,17 @@ text.hold {
  <rect x="608" y="671" width="60" height="50" rx="5" ry="5" />
  <text x="638" y="696">.</text>
  <rect x="672" y="671" width="60" height="50" rx="5" ry="5" />
- <text x="702" y="696">vol+</text>
+ <text x="702" y="696">up</text>
  <rect x="736" y="671" width="60" height="50" rx="5" ry="5" />
  <text x="766" y="696">enter</text>
  <rect x="32" y="725" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="750">fn</text>
  <rect x="96" y="725" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="750">ctrl</text>
+ <text x="126" y="750">gui</text>
  <rect x="160" y="725" width="60" height="50" rx="5" ry="5" />
  <text x="190" y="750">alt</text>
  <rect x="224" y="725" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="750">gui</text>
+ <text x="254" y="750">ctrl</text>
  <rect x="288" y="725" width="60" height="50" rx="5" ry="5" />
  <text x="318" y="750">lower</text>
  <rect x="352" y="725" width="124" height="50" rx="5" ry="5" />
@@ -311,21 +311,21 @@ text.hold {
  <rect x="544" y="725" width="60" height="50" rx="5" ry="5" />
  <text x="574" y="750"></text>
  <rect x="608" y="725" width="60" height="50" rx="5" ry="5" />
- <text x="638" y="750">next</text>
+ <text x="638" y="750">left</text>
  <rect x="672" y="725" width="60" height="50" rx="5" ry="5" />
- <text x="702" y="750">vol-</text>
+ <text x="702" y="750">down</text>
  <rect x="736" y="725" width="60" height="50" rx="5" ry="5" />
- <text x="766" y="750">play</text>
+ <text x="766" y="750">right</text>
  
  <text x="32" y="802" class="layer">fn</text>
  <rect x="32" y="822" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="847"></text>
+ <text x="62" y="847">tab</text>
  <rect x="96" y="822" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="847"></text>
+ <text x="126" y="847">7</text>
  <rect x="160" y="822" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="847"></text>
+ <text x="190" y="847">8</text>
  <rect x="224" y="822" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="847"></text>
+ <text x="254" y="847">9</text>
  <rect x="288" y="822" width="60" height="50" rx="5" ry="5" />
  <text x="318" y="847"></text>
  <rect x="352" y="822" width="60" height="50" rx="5" ry="5" />
@@ -333,7 +333,7 @@ text.hold {
  <rect x="416" y="822" width="60" height="50" rx="5" ry="5" />
  <text x="446" y="847"></text>
  <rect x="480" y="822" width="60" height="50" rx="5" ry="5" />
- <text x="510" y="847"></text>
+ <text x="510" y="847">vol+</text>
  <rect x="544" y="822" width="60" height="50" rx="5" ry="5" />
  <text x="574" y="847">ins</text>
  <rect x="608" y="822" width="60" height="50" rx="5" ry="5" />
@@ -341,15 +341,15 @@ text.hold {
  <rect x="672" y="822" width="60" height="50" rx="5" ry="5" />
  <text x="702" y="847">prtsc</text>
  <rect x="736" y="822" width="60" height="50" rx="5" ry="5" />
- <text x="766" y="847">&#229;</text>
+ <text x="766" y="847">del</text>
  <rect x="32" y="876" width="60" height="50" rx="5" ry="5" />
- <text x="62" y="901">del</text>
+ <text x="62" y="901"></text>
  <rect x="96" y="876" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="901"></text>
+ <text x="126" y="901">4</text>
  <rect x="160" y="876" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="901"></text>
+ <text x="190" y="901">5</text>
  <rect x="224" y="876" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="901"></text>
+ <text x="254" y="901">6</text>
  <rect x="288" y="876" width="60" height="50" rx="5" ry="5" />
  <text x="318" y="901"></text>
  <rect x="352" y="876" width="60" height="50" rx="5" ry="5" />
@@ -357,47 +357,47 @@ text.hold {
  <rect x="416" y="876" width="60" height="50" rx="5" ry="5" />
  <text x="446" y="901"></text>
  <rect x="480" y="876" width="60" height="50" rx="5" ry="5" />
- <text x="510" y="901"></text>
+ <text x="510" y="901">vol-</text>
  <rect x="544" y="876" width="60" height="50" rx="5" ry="5" />
  <text x="574" y="901"></text>
  <rect x="608" y="876" width="60" height="50" rx="5" ry="5" />
- <text x="638" y="901"></text>
+ <text x="638" y="901">&#230;</text>
  <rect x="672" y="876" width="60" height="50" rx="5" ry="5" />
- <text x="702" y="901">&#230;</text>
+ <text x="702" y="901">&#248;</text>
  <rect x="736" y="876" width="60" height="50" rx="5" ry="5" />
- <text x="766" y="901">&#248;</text>
+ <text x="766" y="901">&#229;</text>
  <rect x="32" y="930" width="60" height="50" rx="5" ry="5" />
  <text x="62" y="955">shift</text>
  <rect x="96" y="930" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="955"></text>
+ <text x="126" y="955">1</text>
  <rect x="160" y="930" width="60" height="50" rx="5" ry="5" />
- <text x="190" y="955"></text>
+ <text x="190" y="955">2</text>
  <rect x="224" y="930" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="955"></text>
+ <text x="254" y="955">3</text>
  <rect x="288" y="930" width="60" height="50" rx="5" ry="5" />
- <text x="318" y="955"></text>
+ <text x="318" y="955">0</text>
  <rect x="352" y="930" width="60" height="50" rx="5" ry="5" />
  <text x="382" y="955"></text>
  <rect x="416" y="930" width="60" height="50" rx="5" ry="5" />
  <text x="446" y="955"></text>
  <rect x="480" y="930" width="60" height="50" rx="5" ry="5" />
- <text x="510" y="955"></text>
+ <text x="510" y="955">mute</text>
  <rect x="544" y="930" width="60" height="50" rx="5" ry="5" />
- <text x="574" y="955"></text>
+ <text x="574" y="955">,</text>
  <rect x="608" y="930" width="60" height="50" rx="5" ry="5" />
- <text x="638" y="955"></text>
+ <text x="638" y="955">.</text>
  <rect x="672" y="930" width="60" height="50" rx="5" ry="5" />
  <text x="702" y="955">pgup</text>
  <rect x="736" y="930" width="60" height="50" rx="5" ry="5" />
- <text x="766" y="955">del</text>
+ <text x="766" y="955">enter</text>
  <rect x="32" y="984" width="60" height="50" class="hold" rx="5" ry="5" />
  <text x="62" y="1009" class="hold">fn</text>
  <rect x="96" y="984" width="60" height="50" rx="5" ry="5" />
- <text x="126" y="1009">ctrl</text>
+ <text x="126" y="1009">gui</text>
  <rect x="160" y="984" width="60" height="50" rx="5" ry="5" />
  <text x="190" y="1009">alt</text>
  <rect x="224" y="984" width="60" height="50" rx="5" ry="5" />
- <text x="254" y="1009">gui</text>
+ <text x="254" y="1009">ctrl</text>
  <rect x="288" y="984" width="60" height="50" rx="5" ry="5" />
  <text x="318" y="1009">lower</text>
  <rect x="352" y="984" width="124" height="50" rx="5" ry="5" />

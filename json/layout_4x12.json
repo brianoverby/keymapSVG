@@ -10,31 +10,31 @@
                 ["tab", "q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "bksp"],
                 ["esc", "a", "s", "d", "f", "g", "h", "j", "k", "l", ";", "'"],
                 ["shift", "z", "x", "c", "v", "b","n", "m", ",", ".", "up", "enter"],
-                ["fn", "ctrl", "alt", "gui", "lower", "", "", "raise", "/", "left", "down", "right"]
+                ["fn", "gui", "alt", "ctrl", "lower", "", "", "raise", "/", "left", "down", "right"]
             ]
         },
         "lower": {
             "keys": [
                 ["~","!", "@", "#", "$", "%","^", "&", "*", "(", ")", "bksp"],
-                ["esc", "f1", "f2", "f3", "f4", "f5", "f6", "_", "+", "{", "}", "´"],
-                ["shift", "f7", "f8", "f9", "f10", "f11", "f12", "-", "=", "[", "]", "enter"],
-                ["fn", "ctrl", "alt", "gui", "hold::lower", "", "", "raise", "\\", "|", null, null]
+                ["esc", null, null, null, null, null, null, "_", "+", "{", "}", "´"],
+                ["shift", null, null, null, null, null, null, "-", "=", "[", "]", "enter"],
+                ["fn", "gui", "alt", "ctrl", "hold::lower", "", "", "raise", "\\", "|", null, null]
             ]
         },
         "raise": {
             "keys": [
                 ["`", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "bksp"],
-                ["esc", "f1", "f2", "f3", "f4", "f5", "f6", null, null, null, null, "¨"],
-                ["shift", "f7", "f8", "f9", "f10", "f11", "f12", null, ",", ".", "vol+", "enter"],
-                ["fn", "ctrl", "alt", "gui", "lower", "", "", "hold::raise", null, "next", "vol-", "play"]
+                ["esc", "f1", "f2", "f3", "f4", "f5", "f6", "f7", "f8", "f9", "f10", "¨"],
+                ["shift", "f11", "f12", null, null, null, null, null, ",", ".", "up", "enter"],
+                ["fn", "gui", "alt", "ctrl", "lower", "", "", "hold::raise", null, "left", "down", "right"]
             ]
         },
         "fn": {
             "keys": [
-                [null, null, null, null, null, null, null, null, "ins", null, "prtsc","å"],
-                ["del", null, null, null, null, null, null, null, null, null, "æ", "ø"],
-                ["shift", null, null, null, null, null, null, null, null, null, "pgup", "del"],
-                ["hold::fn", "ctrl", "alt", "gui", "lower", "","","raise", null, "home", "pgdn", "end"]
+                ["tab", "7", "8", "9", null, null, null, "vol+", "ins", null, "prtsc","del"],
+                [ null, "4", "5", "6", null, null, null, "vol-", null, "æ", "ø", "å"],
+                ["shift", "1", "2", "3", "0", null, null, "mute", ",", ".", "pgup", "enter"],
+                ["hold::fn", "gui", "alt", "ctrl", "lower", "","","raise", null, "home", "pgdn", "end"]
             ]
         }
     }
